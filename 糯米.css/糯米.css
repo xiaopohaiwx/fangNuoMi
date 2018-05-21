@@ -99,9 +99,9 @@ header a .me img{width: 15px; height: 20px}
 
 footer{height: 40px; width: 100%; position: fixed; left: 0; bottom: 0; display: flex; justify-content: space-around;
     background: #fdfdfd; border-top: 1px solid rgb(168, 164, 164)}
-footer div{display: flex; flex-direction: column; justify-content: center; align-items: center}
-footer div span{margin-top: -8px}
-footer div img{margin-top: -5px}
+footer a{display: flex; flex-direction: column; justify-content: center; align-items: center}
+footer a span{margin-top: -8px}
+footer a img{margin-top: -5px}
 footer img{transform: scale(.55)}
 
 
