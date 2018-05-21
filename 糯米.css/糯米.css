@@ -1,0 +1,110 @@
+body{padding: 0}
+.top{display: flex; 
+    height: 32px; 
+    background: #FFFCEA; 
+    color: #fbb700; 
+    justify-content: space-between; 
+    padding: 0 12px;
+    align-items: center
+}
+.top a{color: #fbb700; font-size: 15px}
+
+header{display: flex; 
+       height: 44px; 
+       background: rgb(245, 54, 124);
+       color: #fff;
+       padding: 0 12px;
+       justify-content: space-between;
+       align-items: center;
+    }
+header a{font-size: 17px;
+        opacity: .6;
+        color: #fff;
+        display: flex;
+        align-items: center
+        }
+header a .arrow-down{width: 7px;
+                    height: 7px;
+                    border-color: #fff;
+                    border-bottom: 1px solid #fff;
+                    border-right: 1px solid #fff;
+                    transform: rotate(45deg);
+                    margin: 5px;
+                }
+header h3{margin: 5px auto 0;}
+header h3 img{height: 18px; padding-right: 10px}
+header a .me{margin-top: 5px; margin-right: 5px}
+header a .me img{width: 15px; height: 20px}
+
+.search{ height: 50px; background: #F2F1EF; display: flex; justify-content: center; align-items: center}
+.search form{border: 1px solid rgb(212, 210, 210);  
+            border-radius: 15px;
+            display: flex;
+            width: 350px;
+            height: 30px;
+            align-items: center;
+            justify-content: space-between;
+            background: #fff
+        }
+.search form input{border: none; outline: none; margin-left: 5px; font-size: 14px}
+.search form button{background: #fff; border: none; margin-right: 10px; outline: none; margin-top: 1px}
+.search form button img{transform: scale(.5);}
+
+.sowing{height: 70px;}
+.sowing div{margin: 0 auto; border: 1px solid darkblue; height: 70px; width: 350px;}
+.sowing div ul{width: 350px; height: 70px; display: flex; overflow: hidden}
+.sowing div li{ width: 350px; height: 70px;}
+.sowing div ul li img{height: 70px; width: 350px}
+
+.ico{display: flex; flex-wrap: wrap; justify-content: space-around; width: 350px; margin: 0 auto;}
+.ico a{display: flex; flex-direction: column; align-items: center; width: 60px;}
+.ico a span{margin-top: -10px}
+.ico a .span2{margin-top: -20px; color: rgb(173, 168, 168)}
+.ico a span img{transform: scale(.5)}
+
+.choice{height: 130px; display: flex; justify-content: center; margin-top: 20px; border-top: 1px solid rgb(190, 189, 190)}
+.choice .list{display: flex; flex-direction: column; justify-content: space-around; width: 90px}
+.choice .list .span1{font-size: 14px; margin-top: 15px}
+.choice .list .span2{margin-top: 5px; color: rgb(114, 113, 116)}
+.choice .list .span3{font-size: 18px; color: red; margin-top: -10px; margin-bottom: 10px}
+.choice .imgs{width: 265px; height: 128px}
+.choice .imgs img{width: 265px; height: 128px}
+
+.bottom{margin: 0 10px}
+.bottom .boder{display: flex; justify-content: space-between}
+.bottom .boder .text1{font-size: 14px}
+.bottom .boder a{display: flex; align-items: center}
+.bottom .boder a .arrow-right{width: 7px; height: 7px;
+                                    border-bottom: 1px solid rgb(185, 184, 187); 
+                                    border-right: 1px solid rgb(185, 184, 187);
+                                    transform: rotate(-45deg)
+                                }
+.bottom .a-right{display: flex; margin-top: 10px; position: relative; border-bottom: 1px solid rgb(172, 168, 168); padding-bottom: 13px}
+.bottom .a-right .div-right{margin-left: 20px; display: flex; flex-direction: column; width: 250px;}
+.bottom .a-right .div-right .title{font-size: 17px; color: #000;}
+.bottom .a-right .div-right p{display: flex; justify-content: space-between}
+.bottom .a-right .div-right .p0{margin-top: 10px}
+.bottom .a-right .div-right .p0 .xianjia{font-size: 17px; color: rgb(199, 23, 23)}
+.bottom .a-right .div-right .p0 .lijian{border: 1px solid rgb(199, 23, 23); color: rgb(199, 23, 23)}
+.bottom .a-right div .fushan{width: 120px; height: 75px}
+.bottom .a-right div .mainyuyue{position: absolute; left: 0; top: 0; width: 40px; height: 40px}
+
+.but{margin: 10px 10px 60px; display: flex; flex-direction: column; justify-content: space-around;}
+.but div{margin-top: 10px; display: flex}
+.but .div01{justify-content: space-between}
+.but .div01 a{border: 1px solid rgb(168, 164, 164); padding: 3px; margin-left: 5px}
+.but .div02{justify-content: space-around}
+.but .div03{justify-content: space-around}
+.but .div04{justify-content: center}
+
+footer{height: 40px; width: 100%; position: fixed; left: 0; bottom: 0; display: flex; justify-content: space-around;
+    background: #fdfdfd; border-top: 1px solid rgb(168, 164, 164)}
+footer div{display: flex; flex-direction: column; justify-content: center; align-items: center}
+footer div span{margin-top: -8px}
+footer div img{margin-top: -5px}
+footer img{transform: scale(.55)}
+
+
+
+
+
